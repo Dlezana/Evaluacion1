@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: auto;    
+    max-width: auto;
 }
 
 
 body {
     font-family: arial;
     background-image: url(planta.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
 }
+
 
 
 .forma {
@@ -49,20 +54,20 @@ body {
     background: greenyellow;
     border: none;
     color: white;
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
 }
 
-.forma p{
+.forma p {
     height: 40px;
     text-align: center;
 }
 
-.forma a{
+.forma a {
     color: green;
     text-decoration: none;
     font-size: 14px;
 }
 
-.forma a:hover{
+.forma a:hover {
     text-decoration: underline;
 }
